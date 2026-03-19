@@ -1,0 +1,48 @@
+# Core dependencies (PyTorch installed via install.sh)
+numpy>=1.24.0,<2.0.0
+opencv-python>=4.8.0
+pillow>=10.0.0
+tqdm>=4.65.0
+pyyaml>=6.0
+
+# 3D processing
+plyfile>=0.7.4
+trimesh>=3.22.0
+scipy>=1.11.0
+scikit-learn>=1.3.0
+
+# Image/Video processing
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.8
+matplotlib>=3.7.0
+mediapy>=1.1.0
+
+# CLIP and Machine Learning
+open-clip-torch>=2.20.0
+transformers>=4.30.0
+sentencepiece>=0.1.99
+ftfy>=6.1.0
+regex>=2023.0.0
+
+# Stable Diffusion for Background Inpainting
+diffusers>=0.25.0
+acceleate>=0.25.0
+
+# LLM Integration
+google-generativeai>=0.3.0
+
+# Lightning and Training
+pytorch-lightning>=2.0.0
+tensorboard>=2.13.0
+omegaconf>=2.3.0
+
+# Additional utilities
+einops>=0.7.0
+typeguard>=4.0.0
+
+# Submodules (installed via install.sh)
+# These are custom CUDA extensions and must be installed separately:
+# - diff-gaussian-rasterization-lang (language feature rendering)
+# - simple-knn (K-nearest neighbors search)
+# - segment-anything-langsplat (SAM segmentation)
+# - MobileSAM-lang (lightweight SAM)
