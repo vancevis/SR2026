@@ -1,4 +1,4 @@
-# AgentEditor: Instructable 3D Scene Editing with LLMs and Gaussian Splatting
+# Instructable 3D Scene Editing via LLM-Driven Closed-Loop Gaussian Splatting
 
 <img src="\assets\figure1.png" alt="figure1"/>
 
